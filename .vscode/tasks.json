@@ -1,0 +1,37 @@
+{
+    "version": "2.0.0",
+    "tasks": [
+        {
+            "label": "Build OpenGL Project",
+            "type": "shell",
+            "command": "/usr/bin/g++",
+            "args": [
+                "-std=c++17",
+                "-fdiagnostics-color=always",
+                "-Wall",
+                "-g",
+                "-I${workspaceFolder}/include",
+                "-L${workspaceFolder}/lib",
+                "${workspaceFolder}/src/glad.c",  // glad.c needs to be compiled explicitly
+                "${workspaceFolder}/src/main.cpp", // explicitly include main.cpp
+                "${workspaceFolder}/lib/libglfw.3.dylib",
+                "-o",
+                "${workspaceFolder}/main.out",     // Output binary will be "main.out"
+                "-framework",
+                "OpenGL",
+                "-framework",
+                "Cocoa",
+                "-framework",
+                "IOKit",
+                "-framework",
+                "CoreVideo"
+            ],
+            "group": {
+                "kind": "build",
+                "isDefault": true
+            },
+            "problemMatcher": ["$gcc"],
+            "detail": "Build OpenGL project with glad and GLFW"
+        }
+    ]
+}

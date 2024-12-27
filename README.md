@@ -43,7 +43,7 @@ This repository provides a basic OpenGL setup using GLFW and GLAD for macOS. It 
        ```bash
        git clone https://github.com/Dav1dde/glad.git
        ```
-     - Follow the instructions from [GLAD's website](https://glad.dav1d.de/) to generate the loader for OpenGL 3.3 core profile.
+     - Follow the instructions from [GLAD's website](https://glad.dav1d.de/) to generate the loader for OpenGL 4.6 core profile.
 
 ### Additional Dependencies
 

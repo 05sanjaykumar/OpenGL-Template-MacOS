@@ -102,8 +102,3 @@ Feel free to modify this template as per your project's needs. If you face any i
 2. **Build & Run**: Instructions on building the project using VSCode's `Cmd+Shift+B` shortcut and how to set the `DYLD_LIBRARY_PATH` to link GLFW properly when running the project.
 3. **Folder Structure**: Describes the folder structure of the project so others can understand how the project is organized.
 
-### Next Steps
-1. **Add this `README.md` to your project** and push your code to GitHub.
-2. **Share your project** with others or keep it as a quick-start template for future OpenGL projects.
-
-If you need any further adjustments or additions to the `README.md`, feel free to ask!
